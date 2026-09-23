@@ -1,4 +1,4 @@
-# FighterGameDemo: een mechanic prototypen met Unity MCP
+# Snel prototypen met Unity MCP
 
 ![Gameplay: P1 wisselt Low en Heavy af en verdient flux, P2 heeft een volle fluxbalk](Docs/gameplay.png)
 
