@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2b8d806d82ade48b528d38970da933, type: 3}
+  m_Name: FighterConfig
+  m_EditorClassIdentifier: Assembly-CSharp::FighterConfig
+  maxHealth: 1000
+  maxFlux: 100
+  blockedFluxMultiplier: 0.5
+  fluxCarriesOverBetweenRounds: 1
+  walkForwardSpeed: 4.2
+  walkBackSpeed: 3.4
+  jumpVelocity: 14
+  gravity: 46.5
+  jumpHorizontalSpeed: 4.8
+  jumpSquatFrames: 3
+  landingRecoveryFrames: 4
+  bodyHalfWidth: 0.4
+  standHeight: 2
+  crouchHeight: 1.3
+  knockdownFrames: 45
+  launchVelocity: 8
+  launchKnockback: 3.5
+  inputBufferFrames: 6
+  scalingStartsAtHit: 3
+  scalingPerHit: 0.1
+  minScaling: 0.4
+  light:
+    name: Light
+    type: 1
+    guard: 0
+    startup: 4
+    active: 3
+    recovery: 8
+    damage: 40
+    hitstun: 16
+    blockstun: 11
+    hitstop: 6
+    pushbackHit: 0.35
+    pushbackBlock: 0.55
+    fluxGain: 8
+    knockdown: 0
+    hitboxOffset: {x: 0.75, y: 1.45}
+    hitboxSize: {x: 0.9, y: 0.9}
+  heavy:
+    name: Heavy (overhead)
+    type: 2
+    guard: 1
+    startup: 14
+    active: 4
+    recovery: 18
+    damage: 110
+    hitstun: 22
+    blockstun: 16
+    hitstop: 11
+    pushbackHit: 0.9
+    pushbackBlock: 1
+    fluxGain: 12
+    knockdown: 0
+    hitboxOffset: {x: 0.95, y: 1.25}
+    hitboxSize: {x: 1.3, y: 0.8}
+  low:
+    name: Low
+    type: 3
+    guard: 2
+    startup: 7
+    active: 3
+    recovery: 12
+    damage: 60
+    hitstun: 19
+    blockstun: 12
+    hitstop: 8
+    pushbackHit: 0.45
+    pushbackBlock: 0.6
+    fluxGain: 10
+    knockdown: 0
+    hitboxOffset: {x: 0.85, y: 0.25}
+    hitboxSize: {x: 1.2, y: 0.4}
+  airLight:
+    name: Air Light
+    type: 1
+    guard: 1
+    startup: 5
+    active: 6
+    recovery: 8
+    damage: 45
+    hitstun: 17
+    blockstun: 12
+    hitstop: 7
+    pushbackHit: 0.3
+    pushbackBlock: 0.4
+    fluxGain: 8
+    knockdown: 0
+    hitboxOffset: {x: 0.6, y: 0.6}
+    hitboxSize: {x: 0.9, y: 0.6}
+  airHeavy:
+    name: Air Heavy
+    type: 2
+    guard: 1
+    startup: 8
+    active: 6
+    recovery: 12
+    damage: 90
+    hitstun: 20
+    blockstun: 14
+    hitstop: 10
+    pushbackHit: 0.5
+    pushbackBlock: 0.6
+    fluxGain: 12
+    knockdown: 0
+    hitboxOffset: {x: 0.7, y: 0.5}
+    hitboxSize: {x: 1.1, y: 0.8}
+  airLow:
+    name: Air Low (stomp)
+    type: 3
+    guard: 1
+    startup: 6
+    active: 8
+    recovery: 10
+    damage: 70
+    hitstun: 19
+    blockstun: 13
+    hitstop: 8
+    pushbackHit: 0.4
+    pushbackBlock: 0.5
+    fluxGain: 10
+    knockdown: 0
+    hitboxOffset: {x: 0.35, y: 0.05}
+    hitboxSize: {x: 0.9, y: 0.6}
+  superFreezeFrames: 30
+  superStartupFrames: 6
+  superInvulnFrames: 6
+  superDashFrames: 22
+  superDashSpeed: 16
+  superHitboxOffset: {x: 0.55, y: 1}
+  superHitboxSize: {x: 0.7, y: 1.6}
+  superHits: 5
+  superHitInterval: 7
+  superHitDamage: 45
+  superFinisherDamage: 140
+  superChipDamage: 60
+  superBlockstun: 20
+  superRecoveryBlocked: 40
+  superRecoveryWhiff: 45
+  superRecoveryAfterHit: 24
+  superMinScaling: 0.7
