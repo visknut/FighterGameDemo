@@ -41,17 +41,15 @@ Raakt je aanval (ook als hij geblokt wordt), dan mag je hem *cancelen* in een aa
 
 De originele prompt (letterlijk overgenomen, in het Engels):
 
-```text
-I want you to create a demo of a fighter game with primitives. The goal of the demo is to test local vs mode. Two of the same fighters. The twist is that alternating between attacks gives you a currency called flux. If the flux bar is full, you can perform a special attack.
-
-Don't focus too much on how it looks, I just want to test if this mechanic is fun. For all the other mechanics you can go with the tried and true basics and staples of the genre.
-
-Ask me a few questions before you start.
-
-Use the Unity MCP.
-
-I want to play with two players using a single keyboard.
-```
+> I want you to create a demo of a fighter game with primitives. The goal of the demo is to test local vs mode. Two of the same fighters. The twist is that alternating between attacks gives you a currency called flux. If the flux bar is full, you can perform a special attack.
+>
+> Don't focus too much on how it looks, I just want to test if this mechanic is fun. For all the other mechanics you can go with the tried and true basics and staples of the genre.
+>
+> Ask me a few questions before you start.
+>
+> Use the Unity MCP.
+>
+> I want to play with two players using a single keyboard.
 
 Omdat de prompt daarom vroeg, stelde de AI eerst vier meerkeuzevragen. De gekozen antwoorden:
 
